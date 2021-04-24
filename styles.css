@@ -1,0 +1,162 @@
+.container {
+    padding: 10%;
+}
+
+.bg-light {
+    background-color: #fff!important;
+    padding: 2% 15% 0;
+}
+
+.navbar-brand {
+    line-height: 29px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.active,
+.pink {
+    color: rgba(173, 131, 189, 1)!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.first {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.intro p {
+    padding-bottom: 10%;
+}
+
+@keyframes slidebottomTotop {
+    0% {
+        transform: translateY(80%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.intro p {
+    animation: 1s ease-out 0s 1 slidebottomTotop;
+}
+
+.icon {
+    padding-bottom: 10%;
+}
+
+.icon img {
+    width: 10%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.space {
+    margin-top: 50px;
+}
+
+.icon img:hover,
+.certificate a img:hover {
+    top: -10px;
+}
+
+.icon a {
+    color: #000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    padding: 5%;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    padding: 0 0 5%;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 0 0 5%;
+}
+
+.exp ul li {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(173, 131, 189, 1)!important;
+}
+
+.hobby p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.hobby img {
+    width: 80%;
+}
+
+.certificate img {
+    width: 75%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: rgba(220, 199, 228, 1);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+@media (max-width:575px) {
+    .cap {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 2%;
+    }
+    .icon img {
+        width: 40%;
+    }
+}
