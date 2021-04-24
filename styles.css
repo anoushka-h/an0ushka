@@ -26,7 +26,14 @@
     font-weight: 500;
     font-size: 16px;
 }
-
+.mx-auto d-block
+{
+    display:block;
+}
+.hide
+{
+    display:none;
+}
 .first {
     font-weight: 600;
     font-style: normal;
