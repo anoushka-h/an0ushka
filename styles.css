@@ -26,6 +26,7 @@
     font-weight: 500;
     font-size: 16px;
 }
+
 .first {
     font-weight: 600;
     font-style: normal;
@@ -157,5 +158,48 @@ footer p {
     }
     .icon img {
         width: 40%;
+    }
+    .mail:hover+.hide {
+        top: 35%!important;
+        left: 7%!important;
+        font-size: 0.6em!important;
+    }
+    .call:hover+.hide {
+        top: 35%!important;
+        left: 28%!important;
+        font-size: 0.6em!important;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.mail:hover+.hide {
+    display: block;
+    color: #000;
+    font-size: 0.9em;
+    position: absolute;
+    left: 18%;
+    top: 48%;
+}
+
+.call:hover+.hide {
+    display: block;
+    color: #000;
+    font-size: 0.9em;
+    position: absolute;
+    left: 37%;
+    top: 48%;
+}
+
+@media(min-width:700px) and (max-width:1025px) {
+    .call:hover+.hide {
+        left: 36%;
+        top: 20%;
+    }
+    .mail:hover+.hide {
+        left: 15%;
+        top: 20%;
     }
 }
