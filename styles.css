@@ -160,12 +160,12 @@ footer p {
         width: 40%;
     }
     .mail:hover+.hide {
-        top: 35%!important;
+        top: 32%!important;
         left: 7%!important;
         font-size: 0.6em!important;
     }
     .call:hover+.hide {
-        top: 35%!important;
+        top: 32%!important;
         left: 28%!important;
         font-size: 0.6em!important;
     }
