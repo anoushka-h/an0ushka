@@ -160,12 +160,12 @@ footer p {
         width: 40%;
     }
     .mail:hover+.hide {
-        top: 25%!important;
+        top: 16rem!important;
         left: 7%!important;
         font-size: 0.6em!important;
     }
     .call:hover+.hide {
-        top: 25%!important;
+        top: 16rem!important;
         left: 28%!important;
         font-size: 0.6em!important;
     }
@@ -181,7 +181,7 @@ footer p {
     font-size: 0.9em;
     position: absolute;
     left: 18%;
-    top: 48%;
+    top: 45%;
 }
 
 .call:hover+.hide {
@@ -190,16 +190,16 @@ footer p {
     font-size: 0.9em;
     position: absolute;
     left: 37%;
-    top: 48%;
+    top: 45%;
 }
 
 @media(min-width:700px) and (max-width:1025px) {
     .call:hover+.hide {
         left: 36%;
-        top: 20%;
+        top: 16rem;
     }
     .mail:hover+.hide {
         left: 15%;
-        top: 20%;
+        top: 16rem;
     }
 }
