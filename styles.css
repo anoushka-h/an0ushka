@@ -108,7 +108,7 @@ h5 {
     padding: 0 0 5%;
 }
 
-.exp ul li {
+.exp ul li,.hobby ul li {
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 13px;
