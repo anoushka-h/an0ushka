@@ -216,9 +216,9 @@ text-align: justify;
 }
 
 .download-resume{
-    background-color:#AD83BD;
-    border-radius:10px;
-    border-color: transparent;
+    background-color:#AD83BD!important;
+    border-radius:10px!important;
+    border-color: transparent!important;
 }
 
 @media(min-width:700px) and (max-width:1025px) {
