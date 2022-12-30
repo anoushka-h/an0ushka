@@ -222,6 +222,11 @@ text-align: justify;
 }
 .download-resume:hover{
     background-color: #9B71AB!important ;
+    border-color: transparent!important;
+}
+.download-resume:focus{
+    border-color: transparent!important;
+    box-shadow: none!important;
 }
 @media(min-width:700px) and (max-width:1025px) {
     .call:hover+.hide {
