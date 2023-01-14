@@ -90,7 +90,8 @@ h1 {
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom:3%
 }
 
 h3 {
